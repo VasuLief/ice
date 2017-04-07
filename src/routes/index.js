@@ -2,6 +2,7 @@
 import AppLayout from '../layout/AppLayout'
 import Home from './Home'
 import CounterRoute from './Counter'
+import ShopRoute from './Shop'
 
 /*  Note: Instead of using JSX, we recommend using react-router
     PlainRoute objects to build route definitions.   */
@@ -11,7 +12,8 @@ export const createRoutes = (store) => ({
   component: AppLayout,
   indexRoute: Home,
   childRoutes: [
-    CounterRoute(store)
+    CounterRoute(store),
+    ShopRoute(store)
   ]
 })
 
@@ -22,7 +24,7 @@ export const createRoutes = (store) => ({
       require.ensure([], (require) => {
         cb(null, [
           // Remove imports!
-          require('./Counter').default(store)
+          require('./Shop').default(store)
         ])
       })
     }

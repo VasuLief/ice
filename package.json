@@ -22,6 +22,7 @@
   "dependencies": {
     "@klarna/ui": "^6.22.0",
     "html2react": "^1.0.2",
+    "nprogress": "^0.2.0",
     "ramda": "^0.23.0",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
@@ -31,7 +32,6 @@
     "redux": "^3.3.1",
     "redux-actions": "^0.9.1",
     "redux-logger": "^2.6.1",
-    "redux-raven-middleware": "^1.1.0",
     "redux-thunk": "^2.1.0"
   }
 }
