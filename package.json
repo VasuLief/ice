@@ -1,0 +1,37 @@
+{
+  "name": "ice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "sagui build",
+    "dist": "sagui dist",
+    "start": "sagui develop --port 3000",
+    "test": "sagui test",
+    "test:lint": "sagui test:lint",
+    "test:typecheck": "sagui test:typecheck",
+    "test:unit": "sagui test:unit --coverage",
+    "test:unit:watch": "sagui test:unit --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sagui": "^8.0.4"
+  },
+  "dependencies": {
+    "@klarna/ui": "^6.22.0",
+    "html2react": "^1.0.2",
+    "ramda": "^0.23.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-motion": "^0.4.7",
+    "react-redux": "^4.4.0",
+    "react-router": "^3.0.0",
+    "redux": "^3.3.1",
+    "redux-actions": "^0.9.1",
+    "redux-logger": "^2.6.1",
+    "redux-raven-middleware": "^1.1.0",
+    "redux-thunk": "^2.1.0"
+  }
+}
