@@ -2,11 +2,22 @@
 .*/node_modules/.*
 .*/package.json
 .*/sagui.config.js
+.*/dist/.*
+.*/flow-typed/.*
 
 [include]
 
 [libs]
 node_modules/sagui/flowtype-interfaces/
+flow-typed/
 
 [options]
+all=true
 module.system=haste
+module.file_ext=.js
+module.file_ext=.json
+module.file_ext=.jsx
+module.name_mapper.extension='css' -> '<PROJECT_ROOT>/flow/CSSModule.js.flow'
+module.name_mapper.extension='scss' -> '<PROJECT_ROOT>/flow/CSSModule.js.flow'
+module.name_mapper.extension='styl' -> '<PROJECT_ROOT>/flow/CSSModule.js.flow'
+
