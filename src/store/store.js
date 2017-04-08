@@ -1,21 +1,27 @@
 import { createStore } from 'redux'
 
 const defaultStore = {
-  team: [],
-  user: [],
-  product: [],
+  teams: [],
+  users: [],
+  products: [],
   cart: {}
 }
 
 function shopReducer (state = defaultStore, action) {
   switch (action.type) {
     case 'ADD_TEAM':
-      return {...state, 'team': state.team.concat(action.payload)}
+      return {...state, teams: state.teams.concat(action.payload)}
     case 'SELECT_TEAM':
+      return {...state, cart: {...state.cart, team: action.payload}}
     case 'ADD_USER':
+      return {...state, users: state.users.concat(action.payload)}
     case 'ADD_USER_TO_TEAM':
+      // TODO
+      break
     case 'SELECT_USER':
+      return {...state, cart: {...state.cart, user: action.payload}}
     case 'ADD_PRODUCT':
+      return {...state, products: state.products.concat(action.payload)}
     case 'REMOVE_PRODUCT':
       return {...state, 'cart': {}}
     case 'FINISH':
