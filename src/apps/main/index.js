@@ -3,7 +3,7 @@ import { render } from 'react-dom'
 import Header from '../../components/header'
 import Footer from '../../components/footer'
 import Content from '../../components/content'
-import store from '../../store/store'
+import store from '../../features/store/store'
 
 const rootElement: React$Element<any> = (
   <div>
