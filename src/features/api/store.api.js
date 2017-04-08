@@ -1,17 +1,17 @@
 export default class StoreAPI {
-  getTeams (): Array<Object> {
-    return []
+  getTeams (): Promise<Array<Object>> {
+    return Promise.resolve([])
   }
 
-  getUsers (): Array<Object> {
-    return []
+  getUsers (): Promise<Array<Object>> {
+    return Promise.resolve([])
   }
 
-  getProducts (): Array<Object> {
-    return []
+  getProducts (): Promise<Array<Object>> {
+    return Promise.resolve([])
   }
 
-  buy (user: Object, cart: Object): boolean {
-    return false
+  buy (user: Object, cart: Object): Promise<boolean> {
+    return Promise.resolve(false)
   }
 }
