@@ -1,8 +1,16 @@
 import React from 'react'
 import { render } from 'react-dom'
+import Header from './../components/header'
+import Footer from './../components/footer'
+import Content from './../components/content'
+import store from './../store/store'
 
 const rootElement: React$Element<any> = (
-  <h1>ICE, ICE, Baby...</h1>
+  <div>
+    <Header />
+    <Content store={store} />
+    <Footer />
+  </div>
 )
 
 export default function (root: ?HTMLElement) {
