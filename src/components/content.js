@@ -1,7 +1,7 @@
 import React from 'react'
 
 class Content extends React.Component {
-  constructor (props, context) {
+  constructor (props: any, context: any) {
     super(props, context)
 
     this.state = this.props.store.getState()
