@@ -7,17 +7,18 @@ module.exports = {
 
   javaScript: {
     transpileDependencies: [
-      '@klarna',
-    ]
+      '@klarna'
+    ],
+    typeCheckAll: true
   },
 
   webpack: {
     babel: {
-     babelrc: false, // So @klarna/ui does not fail
-       presets: ['sagui']
-     },
-     devServer: {
-       inline: true // So React Development Tools work
-     }
+      babelrc: false, // So @klarna/ui does not fail
+      presets: ['sagui']
+    },
+    devServer: {
+      inline: true // So React Development Tools work
+    }
   }
 }
