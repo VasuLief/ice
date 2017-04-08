@@ -31,20 +31,5 @@ function shopReducer (state = defaultStore, action) {
   }
 }
 
-let store = createStore(shopReducer, defaultStore)
-
-store.dispatch({
-  type: 'ADD_TEAM',
-  payload: {
-    name: 'Myrddin'
-  }
-})
-
-store.dispatch({
-  type: 'ADD_TEAM',
-  payload: {
-    name: 'Kartell'
-  }
-})
-
+const store = createStore(shopReducer)
 export default store
