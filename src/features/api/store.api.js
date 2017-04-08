@@ -1,17 +1,17 @@
 export default class StoreAPI {
-  getTeams () {
+  getTeams (): Array<Object> {
     return []
   }
 
-  getUsers () {
+  getUsers (): Array<Object> {
     return []
   }
 
-  getProducts () {
+  getProducts (): Array<Object> {
     return []
   }
 
-  buy (user: Object, cart: Object) {
-    return null
+  buy (user: Object, cart: Object): boolean {
+    return false
   }
 }

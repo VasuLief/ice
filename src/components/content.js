@@ -7,14 +7,7 @@ class Content extends React.Component {
     this.state = this.props.store.getState()
   }
   render () {
-    return <h3>{Object.keys(this.state).map(key => {
-      if (this.state[key].length) {
-        return this.state[key].map(team => {
-          return team.name
-        })
-      }
-    })}
-    </h3>
+    return <h3> {JSON.stringify(this.state)} </h3>
   }
 }
 
