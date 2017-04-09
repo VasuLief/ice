@@ -1,4 +1,5 @@
-import { createStore } from 'redux'
+import { applyMiddleware, createStore } from 'redux'
+import logger from 'redux-logger'
 
 const defaultStore = {
   teams: [],
@@ -31,5 +32,5 @@ function shopReducer (state = defaultStore, action) {
   }
 }
 
-const store = createStore(shopReducer)
+const store = createStore(shopReducer, applyMiddleware(logger))
 export default store
