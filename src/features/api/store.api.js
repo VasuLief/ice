@@ -8,6 +8,7 @@ export default class StoreAPI {
 
   getUsers (): Promise<Array<Object>> {
     return Promise.resolve(users)
+
   }
 
   getProducts (): Promise<Array<Object>> {
