@@ -1,0 +1,100 @@
+[{
+  "id": 36,
+  "team_id": 1,
+  "first_name": "Brenden",
+  "last_name": "Campbell",
+  "abbr": "BrCa",
+  "personnel_number": 5,
+  "image": "user36.png",
+  "deleted": false
+}, {
+  "id": 48,
+  "team_id": 1,
+  "first_name": "Dexter",
+  "last_name": "Rios",
+  "abbr": "DeRi",
+  "personnel_number": 12,
+  "image": "user48.png",
+  "deleted": false
+}, {
+  "id": 53,
+  "team_id": 2,
+  "first_name": "Andrew",
+  "last_name": "Daniels",
+  "abbr": "AnDa",
+  "personnel_number": 13,
+  "image": "user53.png",
+  "deleted": false
+}, {
+  "id": 1,
+  "team_id": 3,
+  "first_name": "Eaton",
+  "last_name": "Bridges",
+  "abbr": "EaBr",
+  "personnel_number": 22,
+  "image": "user1.png",
+  "deleted": false
+}, {
+  "id": 14,
+  "team_id": 3,
+  "first_name": "Lance",
+  "last_name": "Hale",
+  "abbr": "LanceHa",
+  "personnel_number": 31,
+  "image": "user14.png",
+  "deleted": false
+}, {
+  "id": 23,
+  "team_id": 4,
+  "first_name": "Brady",
+  "last_name": "Solis",
+  "abbr": "BrSo",
+  "personnel_number": 32,
+  "image": "user23.png",
+  "deleted": false
+}, {
+  "id": 29,
+  "team_id": 4,
+  "first_name": "Sylvester",
+  "last_name": "Robertson",
+  "abbr": "SyRo",
+  "personnel_number": 36,
+  "image": "user29.png",
+  "deleted": false
+}, {
+  "id": 44,
+  "team_id": 4,
+  "first_name": "Plato",
+  "last_name": "Castaneda",
+  "abbr": "PlCa",
+  "personnel_number": 39,
+  "image": "user44.png",
+  "deleted": false
+}, {
+  "id": 45,
+  "team_id": 5,
+  "first_name": "Shad",
+  "last_name": "Compton",
+  "abbr": "ShCo",
+  "personnel_number": 41,
+  "image": "user45.png",
+  "deleted": false
+}, {
+  "id": 46,
+  "team_id": 5,
+  "first_name": "Cameron",
+  "last_name": "Young",
+  "abbr": "CaYo",
+  "personnel_number": 44,
+  "image": "user46.png",
+  "deleted": false
+}, {
+  "id": 59,
+  "team_id": 6,
+  "first_name": "Fletcher",
+  "last_name": "Ruiz",
+  "abbr": "FlRu",
+  "personnel_number": 47,
+  "image": "user59.png",
+  "deleted": false
+}]
