@@ -5,6 +5,7 @@ import Footer from '../../components/footer'
 import TeamList from '../../components/teamlist'
 import store from '../../features/store/store'
 
+
 const rootElement: React$Element<any> = (
   <div>
     <Header />
