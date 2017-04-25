@@ -17,8 +17,6 @@ class TeamList extends React.Component {
   }
 
   render () {
-    console.log(this.props.users)
-    console.log(this.props.teams)
     const teams = this.props.teams.map(team => {
       const teamUsers = this.props.users.filter(user => user.team_id === team.id)
       return <Team key={team.id} {...team} users={teamUsers} />
