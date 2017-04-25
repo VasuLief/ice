@@ -24,9 +24,9 @@ function shopReducer (state = defaultStore, action) {
     case 'ADD_PRODUCT':
       return {...state, products: state.products.concat(action.payload)}
     case 'REMOVE_PRODUCT':
-      return {...state, 'cart': {}}
+      return {...state, cart: {}}
     case 'FINISH':
-      return {...state, 'cart': {}}
+      return {...state, cart: {}}
     default:
       return state
   }
