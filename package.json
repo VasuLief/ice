@@ -17,7 +17,9 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "sagui": "^8.0.6"
+    "sagui": "^8.0.6",
+    "eslint-plugin-flowtype": "^2.30.4",
+    "flow-bin": "0.43.1"
   },
   "dependencies": {
     "@klarna/ui": "^6.22.0",
@@ -28,6 +30,7 @@
     "react-dom": "^15.5.3",
     "react-motion": "^0.4.7",
     "react-redux": "^5.0.3",
+    "react-router": "^4.0.0",
     "react-router-dom": "^4.0.0",
     "redux": "^3.6.0",
     "redux-actions": "^2.0.1",

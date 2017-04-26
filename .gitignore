@@ -1,7 +1,7 @@
-.DS_Store
 .idea
 coverage
-dist
 node_modules
 npm-debug.log
-yarn-error.log
+dist
+.DS_Store
+flow-typed/
