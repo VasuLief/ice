@@ -1,15 +1,11 @@
 import React from 'react'
 import { render } from 'react-dom'
-import Header from '../../components/header'
-import Footer from '../../components/footer'
-import TeamList from '../../components/teamlist'
+import App from '../../components/app'
 import store from '../../features/store/store'
 
 const rootElement: React$Element<any> = (
   <div>
-    <Header />
-    <TeamList store={store} />
-    <Footer />
+    <App store={store} />
   </div>
 )
 

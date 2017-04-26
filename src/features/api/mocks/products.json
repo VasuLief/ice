@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "type": true,
+    "name": "Magnum Double Peanut Butter",
+    "price": 1.37,
+    "image": "product1.svg",
+    "deleted": false
+  },
+  {
+    "id": 2,
+    "type": true,
+    "name": "Cornetto Frozen Yoghurt Waldfrucht",
+    "price": 0.69,
+    "image": "product2.svg",
+    "deleted": false
+  },
+  {
+    "id": 3,
+    "type": true,
+    "name": "Ben & Jerry's Cookie Dough",
+    "price": 1.99,
+    "image": "product3.svg",
+    "deleted": false
+  },
+  {
+    "id": 4,
+    "type": true,
+    "name": "Ben & Jerry's Cookie Dough Wich",
+    "price": 1.66,
+    "image": "product4.svg",
+    "deleted": false
+  },
+  {
+    "id": 5,
+    "type": true,
+    "name": "Cornetto Choc 'n' Ball",
+    "price": 1.23,
+    "image": "product5.svg",
+    "deleted": false
+  },
+  {
+    "id": 6,
+    "type": true,
+    "name": "Nogger Choc",
+    "price": 0.88,
+    "image": "product6.svg",
+    "deleted": false
+  },
+  {
+    "id": 7,
+    "type": true,
+    "name": "Solero Exotic",
+    "price": 1.37,
+    "image": "product7.svg",
+    "deleted": false
+  },
+  {
+    "id": 8,
+    "type": true,
+    "name": "Riesenhappen",
+    "price": 0.82,
+    "image": "product8.svg",
+    "deleted": false
+  },
+  {
+    "id": 9,
+    "type": true,
+    "name": "X-POP",
+    "price": 0.41,
+    "image": "product9.svg",
+    "deleted": false
+  },
+  {
+    "id": 10,
+    "type": true,
+    "name": "Cornetto King Cone",
+    "price": 1.52,
+    "image": "product10.svg",
+    "deleted": false
+  },
+  {
+    "id": 11,
+    "type": false,
+    "name": "Soft-Getr\u00e4nk",
+    "price": 0.59,
+    "image": "product11.svg",
+    "deleted": false
+  },
+  {
+    "id": 29,
+    "type": true,
+    "name": "Nogger Snack",
+    "price": 0.68,
+    "image": "product29.svg",
+    "deleted": false
+  }
+]
