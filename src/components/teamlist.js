@@ -4,7 +4,7 @@ import store from '../features/store/store'
 import Team from './team'
 
 class TeamList extends React.Component {
-  onClick (id) {
+  static onClick (id) {
     store.dispatch({type: 'SELECT_TEAM', payload: id})
   }
 
