@@ -4,9 +4,7 @@ import App from '../../components/app'
 import store from '../../features/store/store'
 
 const rootElement: React$Element<any> = (
-  <div>
-    <App store={store} />
-  </div>
+  <App store={store} />
 )
 
 export default function (root: ?HTMLElement) {
