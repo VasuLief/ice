@@ -1,25 +1,16 @@
 import React from 'react'
 import { connect } from 'react-redux'
 import store from '../features/store/store'
-import StoreAPI from '../features/api/store.api'
 import Team from './team'
 
 class TeamList extends React.Component {
-
-  componentDidMount () {
-    this.loadTeams()
-  }
-
-  loadTeams () {
-    const storeAPI = new StoreAPI()
-    storeAPI.getUsers().then(users => store.dispatch({type: 'ADD_USER', payload: users}))
-    storeAPI.getTeams().then(teams => store.dispatch({type: 'ADD_TEAM', payload: teams}))
+  static onClick (id) {
+    store.dispatch({type: 'SELECT_TEAM', payload: id})
   }
 
   render () {
     const teams = this.props.teams.map(team => {
-      const teamUsers = this.props.users.filter(user => user.team_id === team.id)
-      return <Team key={team.id} {...team} users={teamUsers} />
+      return <Team key={team.id} {...team} onClick={(ev) => { ev.preventDefault(); this.onClick(team.id) }} />
     })
 
     return <div id='teams'>

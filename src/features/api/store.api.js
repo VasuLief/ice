@@ -1,5 +1,6 @@
 import teams from './mocks/teams.json'
 import users from './mocks/users.json'
+import products from './mocks/products.json'
 
 export default class StoreAPI {
   getTeams (): Promise<Array<Object>> {
@@ -11,7 +12,7 @@ export default class StoreAPI {
   }
 
   getProducts (): Promise<Array<Object>> {
-    return Promise.resolve([])
+    return Promise.resolve(products)
   }
 
   buy (user: Object, cart: Object): Promise<boolean> {
